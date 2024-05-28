@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    border: solid #4b4a4a54 1px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #333333;
+       
+    
+    
+
+}
+
+.topnav ul{
+    list-style-type: none;
+    display: flex;  
+    justify-content: space-around;
+}
+.topnav ul li{
+    padding: 5px;
+}
+#dropdown{
+border: none;
+}
+.green {
+    color: #08b708;
+}
+
+main-nav{
+    padding: 30px;
+}
+.mainnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+#nestimg{
+    margin-left: 0px;
+}
+.second-row{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-first-row ul{
+    border: solid #82c382;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.second-row ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+}
+.second-row ul li{
+    margin:10px;
+}
+input{
+    border: none;
+}
+#no-border{
+    border: none;
+    background: none;
+}
+.sub-second-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#location{
+    border: none;
+    box-shadow: #333333;
+}
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content:;
+}
+
+.container img{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    fill: #134563;
+}
+
+.text {
+    font-size: 16px;
+    color: #134563;
+}
+.blk1{
+    cursor: pointer;
+}
+.blk1 img{
+    margin-left: 20px;
+}
+.lower-fisrt-row select{
+    border-color: #08b708;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lower-nav{
+    border: solid #4b4a4a54 1px;
+}
+.lower-row{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-fisrt-row ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.lower-fisrt-row ul li{
+margin: 20px;
+}
+#categories{
+    border-radius: 5px;
+    background-color: #68b38d;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 10px;
+}
+/* Style the dropdown button */
+.dropbtn {
+    
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  #homedrop{
+    color: #08b708;
+  }
+  .dropbtn button a:hover{
+    color: #08b708;
+  }
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #08b708;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    animation: fadeIn 0.3s;
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  lower-second-row ul{
+    list-style: none;
+  }
+  .flex-box{
+    display: flex;
+    align-items: center;
+
+  }
+  #flexnum{
+    font-size: 25px;
+    color: #08b708;
+    
+  }
+  
+  .fixed-nav {
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    /* padding: 10px 20px; */
+    width: 100%;
+    transition: top 0.3s ease-in-out;;
+  }
+  
+  /* Sticky class to be added when the navbar should stick */
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensures it's above other content */
+  }
+  
+  .middle-body img{
+    width: 1300px;
+margin: auto;
+  }
