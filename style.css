@@ -86,7 +86,7 @@ input{
 .second-container {
     display: flex;
     align-items: center;
-    justify-content:;
+    /* justify-content:; */
 }
 
 .container img{
